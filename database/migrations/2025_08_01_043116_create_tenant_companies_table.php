@@ -9,6 +9,7 @@ return new class extends Migration {
         Schema::create('tenant_companies', function (Blueprint $table) {
             $table->smallIncrements('id');
             $table->string('name', 30);
+            $table->text('address');
             $table->string('email', 50)->unique();
             $table->string('password', 60);
             $table->tinyInteger('role_id')->unsigned();

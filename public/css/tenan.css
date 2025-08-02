@@ -1,0 +1,92 @@
+.tenan-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.tenan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-daftar {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-daftar:hover {
+    background-color: #2563eb;
+}
+
+.table-container {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.tenan-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tenan-table thead {
+    background-color: #f3f4f6;
+}
+
+.tenan-table th, .tenan-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-edit {
+    background-color: #facc15;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-edit:hover {
+    background-color: #eab308;
+}
+
+.btn-hapus {
+    background-color: #ef4444;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-hapus:hover {
+    background-color: #dc2626;
+}
+
+.empty-text {
+    text-align: center;
+    color: #9ca3af;
+    padding: 16px;
+}
+
+.form-hapus {
+    display: inline;
+}

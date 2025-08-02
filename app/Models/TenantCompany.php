@@ -12,7 +12,15 @@ class TenantCompany extends Authenticatable
 
     public $timestamps = false; 
 
-    protected $fillable = ['name', 'email', 'password', 'role_id', 'company_id'];
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+        'address',
+        'company_id',
+        'role_id'
+    ];
+    
 
     protected $hidden = ['password'];
 
